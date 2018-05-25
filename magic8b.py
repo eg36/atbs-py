@@ -11,3 +11,4 @@ messages =  ['It is certain',
  'Very doubtful']
 
 print(messages[random.randint(0, len(messages) - 1)])
+
