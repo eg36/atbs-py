@@ -1,0 +1,7 @@
+print('''
+WTF
+WTF
+
+dddssdsd
+
+''')
