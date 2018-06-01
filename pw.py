@@ -7,3 +7,8 @@ PASSWORDS = {
     'dupa': 'fdfdkjfdjfdjfdjfd'
 }
 
+import sys
+
+if len(sys.argv) < 2:
+    print('Usage: python pw.py [account] - copy password.')
+    sys.exit()
