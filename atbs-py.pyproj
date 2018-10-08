@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43c0af24-bcf0-4958-8ff8-29b4a4eb8ef9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>birthdays.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="birthdays.py" />
+    <Compile Include="charcount.py" />
+    <Compile Include="dictfor.py" />
+    <Compile Include="exit.py" />
+    <Compile Include="fivetimes.py" />
+    <Compile Include="forrange.py" />
+    <Compile Include="func1.py" />
+    <Compile Include="func2.py" />
+    <Compile Include="gauss.py" />
+    <Compile Include="guessthenumber.py" />
+    <Compile Include="hello.py" />
+    <Compile Include="ifelseelif.py" />
+    <Compile Include="islower.py" />
+    <Compile Include="isPhoneNumber.py" />
+    <Compile Include="magic8.py" />
+    <Compile Include="magic8b.py" />
+    <Compile Include="mycatnames2.py" />
+    <Compile Include="mypets.py" />
+    <Compile Include="passingReferences.py" />
+    <Compile Include="picnictable.py" />
+    <Compile Include="pw.py" />
+    <Compile Include="random1.py" />
+    <Compile Include="samename.py" />
+    <Compile Include="samename2.py" />
+    <Compile Include="samename3.py" />
+    <Compile Include="swordfish.py" />
+    <Compile Include="test.py" />
+    <Compile Include="textmanipulation.py" />
+    <Compile Include="ttt.py" />
+    <Compile Include="validate.py" />
+    <Compile Include="while.py" />
+    <Compile Include="wtf.py" />
+    <Compile Include="yourname.py" />
+    <Compile Include="yourname2.py" />
+    <Compile Include="zerodivide.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
