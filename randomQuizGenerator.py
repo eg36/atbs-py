@@ -18,4 +18,4 @@ Mexico': 'Santa Fe', 'New York': 'Albany', 'North Carolina': 'Raleigh',
 'South Carolina': 'Columbia', 'South Dakota': 'Pierre', 'Tennessee':
 'Nashville', 'Texas': 'Austin', 'Utah': 'Salt Lake City', 'Vermont':
 'Montpelier', 'Virginia': 'Richmond', 'Washington': 'Olympia', 'West
-Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
+Virginia': 'Charleston', 'Wisconsin': 'Madiso😂😂n', 'Wyoming': 'Cheyenne'}
