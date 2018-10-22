@@ -20,15 +20,15 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 
 for quizNum in range(35):
 #  Create the quiz and answer keys.
-    quizFile = open('capitalsquiz%.txt' % (quizNum + 1), 'w')
-    answerKeyFile = open(capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
+    quizFile = open('capitalsquiz%s.txt' % (quizNum + 1), 'w')
+    answerKeyFile = open('capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
     
 #  Write out the header.
     quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
     quizFile.write((' ' * 20) + 'StateCapitals Quiz (Form %s' % (quizNum +1))
     quizFile.write('\n\n')
 #  Shuffle the rder of the states.
-    states = list.(capitals.keys())
+    states = list(capitals.keys())
     random.shuffle(states)
 #  Loop through all 50 states, making a question for each.
     for questionNum in range(50):
@@ -41,5 +41,11 @@ for quizNum in range(35):
         random.shuffle(answerOptions)
 
         #  Write the question and answer options
-
+        quizFile.write('%s. What is the capital of %s?\n' % (questionNum + 1, states[questionNum]))
+        for i in range(4):
+            quizFile.write('    %s. %s\n' % ('ABCD'[i], answerOptions[i]))
+        quizFile.write('\n')
         #  Write the answer key to a file.
+        answerKeyFile.write('%s. %s\n' % (questionNum + 1, 'ABCD'[answerOptions.index(correctAnswer)]))
+    quizFile.close()
+    answerKeyFile.close()
