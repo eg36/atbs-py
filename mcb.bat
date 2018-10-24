@@ -1,0 +1,1 @@
+@pyw.exe D:\automate\atbs-py\mcb.pyw %*
